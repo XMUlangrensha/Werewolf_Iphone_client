@@ -28,7 +28,7 @@ GCDAsyncSocket *clientSocket;
     
     [super viewDidLoad];
 // Do any additional setup after loading the view, typically from a nib.
-    //初始化 事件类型， 身份id ，名字 ， 是否owner ， 其他信息
+    //初始化 事件类型， 身份id ，名字 ， 是否owner ， 其他信息.....
     eventType = [NSNumber numberWithInt:0];
     identity = [NSNumber numberWithInt:0];
     name = @"vfg";
@@ -36,7 +36,7 @@ GCDAsyncSocket *clientSocket;
     otherInfo = @"6";
 	
 }
-// 连接服务器
+// 连接服务器........
 - (IBAction)ConnectToSever:(id)sender {
     //
     clientSocket=[[GCDAsyncSocket alloc]initWithDelegate:self delegateQueue:dispatch_get_main_queue()];
