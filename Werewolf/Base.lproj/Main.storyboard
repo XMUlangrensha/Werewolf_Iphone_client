@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Setting-->
+        <scene sceneID="KWK-1a-yCI">
+            <objects>
+                <viewController id="9VI-9B-J84" customClass="Setting" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qRE-Nn-yPC"/>
+                        <viewControllerLayoutGuide type="bottom" id="H5h-Na-aRC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zlQ-KH-wXS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="狼人杀6_游戏设置.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zOX-Gn-C00">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNd-Oz-eSt">
+                                <rect key="frame" x="242" y="405" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="公用button_返回.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="OVA-5m-Xfx"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ac5-Vc-da3">
+                                <rect key="frame" x="143" y="225" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="hideKeyBoard:" destination="9VI-9B-J84" eventType="editingDidEndOnExit" id="Syl-w2-Cnq"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="名字" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iuh-dQ-9r5">
+                                <rect key="frame" x="72" y="228" width="34" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="nameBox" destination="Ac5-Vc-da3" id="LLO-rB-FnI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7uL-lh-j6C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1682" y="-697"/>
+        </scene>
+        <!--Index View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="IndexViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fss-Tu-AsD"/>
+                        <viewControllerLayoutGuide type="bottom" id="2eD-h9-3Qp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="狼人杀1_游戏开始界面(无button字版).jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wtY-9f-wEK">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATl-jr-NLO">
+                                <rect key="frame" x="51" y="331" width="100" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" backgroundImage="狼人杀1_游戏开始界面_开始游戏.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startGame:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2Eo-nU-Qbu"/>
+                                    <segue destination="HO5-d3-3nv" kind="modal" identifier="IndexToChoose" id="u92-DR-bL1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vMI-ey-QIM">
+                                <rect key="frame" x="138" y="368" width="75" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" backgroundImage="狼人杀1_游戏开始界面_设置.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9VI-9B-J84" kind="modal" id="FE1-Vl-Jv2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avy-ik-xnp">
+                                <rect key="frame" x="213" y="408" width="49" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" backgroundImage="狼人杀1_游戏开始界面_帮助.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="amK-Js-axk" kind="modal" id="Doo-kr-DRn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9960784912109375" green="0.99215692281723022" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jxE-6V-gfO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1688" y="-46"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="m91-ru-X0N">
+            <objects>
+                <viewController id="amK-Js-axk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ocA-Ef-Yq8"/>
+                        <viewControllerLayoutGuide type="bottom" id="zzy-qH-HOP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sgK-PP-r6U">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="狼人杀5_游戏介绍.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ftS-oX-bOf">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCa-LI-KI1">
+                                <rect key="frame" x="240" y="411" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="公用button_返回.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="HWx-49-PFe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IFN-Mf-iUM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1714" y="919"/>
+        </scene>
+        <!--Choosefang-->
+        <scene sceneID="MeT-Ae-eWu">
+            <objects>
+                <viewController id="HO5-d3-3nv" customClass="Choosefang" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GmZ-0g-NEq"/>
+                        <viewControllerLayoutGuide type="bottom" id="pRw-SE-eRZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PHi-zM-QsO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="狼人杀2_角色选择(无button字版).jpg" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sHN-8h-L1V">
+                                <rect key="frame" x="-1" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mda-Ow-Kqr">
+                                <rect key="frame" x="111" y="304" width="70" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="狼人杀2_角色选择_房主.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="choosefangzu:" destination="HO5-d3-3nv" eventType="touchUpInside" id="4LF-P6-Mnc"/>
+                                    <segue destination="txm-qo-QxS" kind="modal" identifier="fangzuToWait" id="uOx-sd-FU9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWI-tQ-7uW">
+                                <rect key="frame" x="111" y="357" width="70" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="狼人杀2_角色选择_房客.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="choosefangke:" destination="HO5-d3-3nv" eventType="touchUpInside" id="TVr-ig-1Ba"/>
+                                    <segue destination="txm-qo-QxS" kind="modal" identifier="fangkeToWait" id="gg3-1H-FCZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l8T-7p-tZb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1057" y="-73"/>
+        </scene>
+        <!--Waiting-->
+        <scene sceneID="Oev-6b-gwE">
+            <objects>
+                <viewController id="txm-qo-QxS" customClass="Waiting" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m7l-Jz-1CN"/>
+                        <viewControllerLayoutGuide type="bottom" id="4pr-Ok-tNx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="efI-Xi-KMh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="狼人杀8_等待加入.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JFb-Ay-Qc6">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ff" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSZ-bQ-nfJ">
+                                <rect key="frame" x="64" y="247" width="192" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="fff" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XaX-Kk-oBW">
+                                <rect key="frame" x="66" y="203" width="208" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hdn-S7-jEy">
+                                <rect key="frame" x="34" y="301" width="240" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ot1-Q8-2Rg"/>
+                    <connections>
+                        <outlet property="infoBox" destination="Hdn-S7-jEy" id="pHR-Xh-DZe"/>
+                        <outlet property="showNum" destination="fSZ-bQ-nfJ" id="ZAE-DT-KHG"/>
+                        <outlet property="showRoomNum" destination="XaX-Kk-oBW" id="yhu-N7-ZOc"/>
+                        <segue destination="cV5-FL-Vg8" kind="modal" identifier="ToVillage" id="6o1-wW-VdL"/>
+                        <segue destination="yEj-lc-vR4" kind="modal" identifier="ToCupid" id="Z3v-Vc-kWp"/>
+                        <segue destination="XYw-bQ-z55" kind="modal" identifier="ToWolf" id="49N-hf-sTe"/>
+                        <segue destination="4zf-Qk-WeZ" kind="modal" identifier="ToWitch" id="g2Y-Hh-bgL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lhx-O8-YEq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-348" y="-82"/>
+        </scene>
+        <!--Villager Role Card-->
+        <scene sceneID="h61-6D-H3H">
+            <objects>
+                <viewController id="cV5-FL-Vg8" customClass="VillagerRoleCard" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K3a-G0-TWh"/>
+                        <viewControllerLayoutGuide type="bottom" id="BmB-IB-J57"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nm5-tk-Ji6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="狼人杀9_您的身份是_背景.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="q7S-SV-mpE">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="493"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="euY-Gn-4Pg">
+                                <rect key="frame" x="142" y="420" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="公用button_确定.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="58D-zF-L4d" kind="modal" identifier="ToVillagerInfo" id="pCa-lA-SNF"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SOE-fM-CWb" customClass="IDCardView">
+                                <rect key="frame" x="86" y="225" width="162" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="coinView" destination="SOE-fM-CWb" id="I7R-Z0-XAr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sgL-um-vrT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="258" y="-1098"/>
+        </scene>
+        <!--Village-->
+        <scene sceneID="DeQ-AX-bnY">
+            <objects>
+                <viewController id="58D-zF-L4d" customClass="Village" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J8e-bT-pOd"/>
+                        <viewControllerLayoutGuide type="bottom" id="E3J-c1-lvn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GmL-cO-st0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="狼人杀1_bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="j5j-Ud-FLk">
+                                <rect key="frame" x="0.0" y="0.0" width="326" height="485"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="SPY-k4-cKa">
+                                <rect key="frame" x="36" y="85" width="249" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iut-hz-0jz">
+                                <rect key="frame" x="124" y="390" width="63" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="投票.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="VoteButton:" destination="58D-zF-L4d" eventType="touchUpInside" id="mcN-L8-7QD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HgG-Mn-qDN">
+                                <rect key="frame" x="95" y="431" width="120" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="发言完毕.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="SpeechOverButton:" destination="58D-zF-L4d" eventType="touchUpInside" id="pTb-ed-n0H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgg-yh-HlS">
+                                <rect key="frame" x="20" y="7" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="公用button_返回.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cV5-FL-Vg8" kind="modal" id="YMe-kb-2ZS"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uhv-8J-mT3">
+                                <rect key="frame" x="-10" y="188" width="320" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="58D-zF-L4d" id="SLR-04-9Hg"/>
+                                    <outlet property="delegate" destination="58D-zF-L4d" id="vWG-Ed-HLp"/>
+                                </connections>
+                            </pickerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="你的身份是.png" translatesAutoresizingMaskIntoConstraints="NO" id="VKh-ZR-ib0">
+                                <rect key="frame" x="20" y="30" width="217" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="村民.png" translatesAutoresizingMaskIntoConstraints="NO" id="LqT-El-GvN">
+                                <rect key="frame" x="203" y="30" width="88" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DSG-7U-Mx5"/>
+                    <connections>
+                        <outlet property="InfoBox" destination="SPY-k4-cKa" id="GbI-3P-O0f"/>
+                        <outlet property="VotePicker" destination="uhv-8J-mT3" id="S1B-ba-rm4"/>
+                        <outlet property="speechOverButton" destination="HgG-Mn-qDN" id="3Zk-Ju-yyJ"/>
+                        <outlet property="voteButton" destination="iut-hz-0jz" id="QfB-yg-B9g"/>
+                        <segue destination="6f5-0A-3gF" kind="modal" identifier="ToDeath" animates="NO" id="cWG-SY-eZ0"/>
+                        <segue destination="sZX-5U-s1F" kind="modal" identifier="toGameResult" id="k2k-02-2z4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bIY-wU-WVR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="727" y="-1098"/>
+        </scene>
+        <!--Wolf Role Card-->
+        <scene sceneID="yJD-Lm-GjD">
+            <objects>
+                <viewController id="XYw-bQ-z55" customClass="WolfRoleCard" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K3P-oI-yT4"/>
+                        <viewControllerLayoutGuide type="bottom" id="FTh-xE-boo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="x1s-mX-05a">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="狼人杀9_您的身份是_背景.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Tig-xU-KpF">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KLA-xl-CYE" customClass="IDCardView">
+                                <rect key="frame" x="79" y="218" width="162" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cis-TB-H3s">
+                                <rect key="frame" x="130" y="411" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="公用button_确定.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="djA-Vd-1Ge" kind="modal" id="IER-f7-nXA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="coinView" destination="KLA-xl-CYE" id="MRP-AZ-uHF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ReK-70-HIw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="275" y="410"/>
+        </scene>
+        <!--Witch Role Card-->
+        <scene sceneID="GKy-w1-RnG">
+            <objects>
+                <viewController id="4zf-Qk-WeZ" customClass="WitchRoleCard" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FpV-qM-n01"/>
+                        <viewControllerLayoutGuide type="bottom" id="pD3-fe-D0i"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="n59-a0-7Ww">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="狼人杀9_您的身份是_背景.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Zbh-uU-nvq">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oBv-wT-avD" customClass="IDCardView">
+                                <rect key="frame" x="79" y="218" width="162" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yjs-Xd-3Wx">
+                                <rect key="frame" x="137" y="419" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="公用button_确定.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wL7-Hy-FIT" kind="modal" id="4q1-H4-fAt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="coinView" destination="oBv-wT-avD" id="S8a-Mz-rKk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GNu-j1-h4n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="258" y="1222"/>
+        </scene>
+        <!--Wolfviewcontroller-->
+        <scene sceneID="ka2-ly-qR8">
+            <objects>
+                <viewController id="djA-Vd-1Ge" customClass="Wolfviewcontroller" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FTT-H8-64g"/>
+                        <viewControllerLayoutGuide type="bottom" id="hB0-R0-rhj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="q1c-uq-LWV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="狼人杀1_bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jMa-TO-l0p">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="你的身份是.png" translatesAutoresizingMaskIntoConstraints="NO" id="GwV-uf-Caa">
+                                <rect key="frame" x="18" y="20" width="214" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="狼人.png" translatesAutoresizingMaskIntoConstraints="NO" id="XhK-KI-xGd">
+                                <rect key="frame" x="207" y="20" width="88" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khe-Jc-4L6">
+                                <rect key="frame" x="56" y="377" width="68" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="杀人.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="WolfKillButon:" destination="djA-Vd-1Ge" eventType="touchUpInside" id="fiD-Dq-Uf1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEs-dY-xHo">
+                                <rect key="frame" x="209" y="377" width="72" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="投票" image="投票.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="VoteButton:" destination="djA-Vd-1Ge" eventType="touchUpInside" id="fqN-XZ-tts"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnm-YL-orf">
+                                <rect key="frame" x="90" y="421" width="134" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="发言完毕" image="发言完毕.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="SpeechOverButton:" destination="djA-Vd-1Ge" eventType="touchUpInside" id="s1o-Cx-drL"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgb-vj-Jcb">
+                                <rect key="frame" x="41" y="78" width="233" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Slu-zM-7OS">
+                                <rect key="frame" x="13" y="11" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="XYw-bQ-z55" kind="modal" id="q3u-VU-AVH"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sTp-jN-EdA">
+                                <rect key="frame" x="-3" y="199" width="320" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="djA-Vd-1Ge" id="85W-Nd-JHb"/>
+                                    <outlet property="delegate" destination="djA-Vd-1Ge" id="nrC-r5-wAl"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="InfoBox" destination="xgb-vj-Jcb" id="KuY-Vp-HLb"/>
+                        <outlet property="VotePicker" destination="sTp-jN-EdA" id="JOz-Wh-sTC"/>
+                        <outlet property="kiilButton" destination="Khe-Jc-4L6" id="DpJ-us-YvR"/>
+                        <outlet property="speechOverButton" destination="dnm-YL-orf" id="YRK-z9-dFN"/>
+                        <outlet property="voteButton" destination="bEs-dY-xHo" id="7OQ-mh-Ngk"/>
+                        <segue destination="6f5-0A-3gF" kind="modal" identifier="ToDeath" animates="NO" id="9Ip-NU-8Vd"/>
+                        <segue destination="sZX-5U-s1F" kind="modal" identifier="toGameResult" id="h6m-Ih-oO0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XGD-Oo-aOG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="771" y="386"/>
+        </scene>
+        <!--Cupid Role Card-->
+        <scene sceneID="2KP-t9-nsF">
+            <objects>
+                <viewController id="yEj-lc-vR4" customClass="CupidRoleCard" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pN9-po-4gg"/>
+                        <viewControllerLayoutGuide type="bottom" id="xPg-2Q-kjO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FSw-Ev-FqG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="狼人杀9_您的身份是_背景.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OWY-ia-QYH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNz-Xl-zBR">
+                                <rect key="frame" x="130" y="421" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="公用button_确定.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="QXI-EW-6lC" kind="modal" id="FEf-PX-BGF"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rdS-yB-Z6y" customClass="IDCardView">
+                                <rect key="frame" x="79" y="225" width="162" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="coinView" destination="rdS-yB-Z6y" id="52x-0s-cWw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KMW-MX-CWA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="275" y="-317"/>
+        </scene>
+        <!--Cupid View Controller-->
+        <scene sceneID="UzC-uc-Fuu">
+            <objects>
+                <viewController id="QXI-EW-6lC" customClass="CupidViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uLu-Ez-p26"/>
+                        <viewControllerLayoutGuide type="bottom" id="eW7-zd-xc3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zNM-vw-QYW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="狼人杀1_bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Hny-f5-2Sg">
+                                <rect key="frame" x="0.0" y="-16" width="320" height="496"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n8H-Fi-G6j">
+                                <rect key="frame" x="40" y="73" width="240" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOz-tR-D26">
+                                <rect key="frame" x="46" y="385" width="130" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="连接情侣" image="连接情侣.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ConnectBoyAndGirl:" destination="QXI-EW-6lC" eventType="touchUpInside" id="61N-as-XjV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JE8-gd-1fn">
+                                <rect key="frame" x="205" y="385" width="69" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="投票" image="投票.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="VoteButton:" destination="QXI-EW-6lC" eventType="touchUpInside" id="r9N-Br-gce"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRX-dH-xad">
+                                <rect key="frame" x="98" y="428" width="125" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="发言结束" image="发言完毕.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="SpeechOverButton:" destination="QXI-EW-6lC" eventType="touchUpInside" id="xCX-v1-Gfw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jx6-hg-aUt">
+                                <rect key="frame" x="9" y="8" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yEj-lc-vR4" kind="modal" id="aKl-Bu-Nhm"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FIL-j9-GdZ">
+                                <rect key="frame" x="0.0" y="191" width="320" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="QXI-EW-6lC" id="r8e-Xk-gq8"/>
+                                    <outlet property="delegate" destination="QXI-EW-6lC" id="GEt-39-r4y"/>
+                                </connections>
+                            </pickerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="你的身份是.png" translatesAutoresizingMaskIntoConstraints="NO" id="Emy-NW-JFP">
+                                <rect key="frame" x="20" y="10" width="210" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="丘比特.png" translatesAutoresizingMaskIntoConstraints="NO" id="kTA-ib-GC5">
+                                <rect key="frame" x="187" y="8" width="111" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="ConnectButton" destination="WOz-tR-D26" id="tTY-dr-XjH"/>
+                        <outlet property="InfoBox" destination="n8H-Fi-G6j" id="DeE-WJ-ZP9"/>
+                        <outlet property="VotePicker" destination="FIL-j9-GdZ" id="dOo-t2-XRq"/>
+                        <outlet property="speechOverButton" destination="lRX-dH-xad" id="GmX-aA-nIP"/>
+                        <outlet property="voteButton" destination="JE8-gd-1fn" id="lTZ-dt-pxN"/>
+                        <segue destination="6f5-0A-3gF" kind="modal" identifier="ToDeath" animates="NO" id="uyd-Oh-cdF"/>
+                        <segue destination="sZX-5U-s1F" kind="modal" identifier="toGameResult" id="8sn-20-pGv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NPg-cB-XKj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="711" y="-335"/>
+        </scene>
+        <!--Death-->
+        <scene sceneID="4W8-Bb-fiv">
+            <objects>
+                <viewController id="6f5-0A-3gF" customClass="Death" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UTE-0z-hhZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="jC0-CR-MpA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MSJ-Hm-Ml7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="狼人杀1_bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="G06-Wb-KCk">
+                                <rect key="frame" x="0.0" y="0.0" width="325" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="你已死亡！" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wuo-Gs-gAD">
+                                <rect key="frame" x="112" y="202" width="85" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xai-M8-4uW">
+                                <rect key="frame" x="70" y="318" width="169" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="遗言结束.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="finalSpeechOver:" destination="6f5-0A-3gF" eventType="touchUpInside" id="ELo-bi-a1f"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="sZX-5U-s1F" kind="modal" identifier="toGameResult" id="PWp-q3-4d4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3G6-zn-ZPp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3135" y="1050"/>
+        </scene>
+        <!--Gameresult-->
+        <scene sceneID="Cvk-NS-Y0S">
+            <objects>
+                <viewController id="sZX-5U-s1F" customClass="Gameresult" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Nw-Rf-rHu"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ryy-OH-NJN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4CY-sm-mUJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="狼人杀1_bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="C0l-Um-MHa">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="游戏结果" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1o-a7-uAF">
+                                <rect key="frame" x="82" y="215" width="157" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="gameEnd" destination="y1o-a7-uAF" id="anK-Vo-5A5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1d3-jD-x8G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2955" y="-919"/>
+        </scene>
+        <!--Witch View Controller-->
+        <scene sceneID="KaR-Gc-Rqr">
+            <objects>
+                <viewController id="wL7-Hy-FIT" customClass="WitchViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5j4-zX-esh"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ri3-Pe-gVX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hfe-TY-3iE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="狼人杀1_bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kLh-q1-1kv">
+                                <rect key="frame" x="0.0" y="0.0" width="325" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="你的身份是.png" translatesAutoresizingMaskIntoConstraints="NO" id="cKO-iX-VFy">
+                                <rect key="frame" x="20" y="20" width="219" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="女巫.png" translatesAutoresizingMaskIntoConstraints="NO" id="m6D-Ze-A5f">
+                                <rect key="frame" x="208" y="20" width="88" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c28-Mx-i2O">
+                                <rect key="frame" x="37" y="69" width="250" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGC-9s-M24">
+                                <rect key="frame" x="53" y="382" width="71" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="毒人.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="PoisonButton:" destination="wL7-Hy-FIT" eventType="touchUpInside" id="gvq-vO-pk7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nnE-se-Io8">
+                                <rect key="frame" x="206" y="381" width="77" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="投票.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="VoteButton:" destination="wL7-Hy-FIT" eventType="touchUpInside" id="9zU-Os-xVG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PbT-9U-btG">
+                                <rect key="frame" x="90" y="424" width="145" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="发言完毕.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="SpeechOverButton:" destination="wL7-Hy-FIT" eventType="touchUpInside" id="DUa-rI-D48"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGw-Ab-fQY">
+                                <rect key="frame" x="25" y="11" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="4zf-Qk-WeZ" kind="modal" id="lVo-9g-4Uh"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LWY-Rx-wkF">
+                                <rect key="frame" x="0.0" y="185" width="320" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="wL7-Hy-FIT" id="wH0-kX-1cp"/>
+                                    <outlet property="delegate" destination="wL7-Hy-FIT" id="ZYG-qH-ELB"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="InfoBox" destination="c28-Mx-i2O" id="B2V-wg-YM9"/>
+                        <outlet property="PosionRealButton" destination="gGC-9s-M24" id="6Mg-Ai-BYm"/>
+                        <outlet property="VotePicker" destination="LWY-Rx-wkF" id="q77-jo-1aG"/>
+                        <outlet property="speechOverButton" destination="PbT-9U-btG" id="qYL-lD-lt3"/>
+                        <outlet property="voteButton" destination="nnE-se-Io8" id="Nlg-yA-rEP"/>
+                        <segue destination="6f5-0A-3gF" kind="modal" identifier="ToDeath" animates="NO" id="H1n-Ya-cEn"/>
+                        <segue destination="sZX-5U-s1F" kind="modal" identifier="toGameResult" id="5bS-31-3rA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GUJ-q2-IHq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="755" y="1243"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="丘比特.png" width="165" height="65"/>
+        <image name="你的身份是.png" width="330" height="65"/>
+        <image name="公用button_确定.png" width="107" height="75"/>
+        <image name="公用button_返回.png" width="109" height="64"/>
+        <image name="发言完毕.png" width="220" height="65"/>
+        <image name="女巫.png" width="110" height="65"/>
+        <image name="投票.png" width="110" height="65"/>
+        <image name="杀人.png" width="110" height="65"/>
+        <image name="村民.png" width="110" height="65"/>
+        <image name="毒人.png" width="110" height="65"/>
+        <image name="狼人.png" width="110" height="65"/>
+        <image name="狼人杀1_bg.jpg" width="640" height="960"/>
+        <image name="狼人杀1_游戏开始界面(无button字版).jpg" width="640" height="960"/>
+        <image name="狼人杀1_游戏开始界面_帮助.png" width="156" height="79"/>
+        <image name="狼人杀1_游戏开始界面_开始游戏.png" width="250" height="77"/>
+        <image name="狼人杀1_游戏开始界面_设置.png" width="195" height="83"/>
+        <image name="狼人杀2_角色选择(无button字版).jpg" width="640" height="960"/>
+        <image name="狼人杀2_角色选择_房主.png" width="155" height="83"/>
+        <image name="狼人杀2_角色选择_房客.png" width="148" height="77"/>
+        <image name="狼人杀5_游戏介绍.jpg" width="640" height="960"/>
+        <image name="狼人杀6_游戏设置.jpg" width="640" height="960"/>
+        <image name="狼人杀8_等待加入.jpg" width="640" height="960"/>
+        <image name="狼人杀9_您的身份是_背景.jpg" width="640" height="960"/>
+        <image name="连接情侣.png" width="220" height="65"/>
+        <image name="遗言结束.png" width="220" height="65"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="gg3-1H-FCZ"/>
+        <segue reference="OVA-5m-Xfx"/>
+        <segue reference="YMe-kb-2ZS"/>
+        <segue reference="q3u-VU-AVH"/>
+        <segue reference="aKl-Bu-Nhm"/>
+        <segue reference="H1n-Ya-cEn"/>
+        <segue reference="lVo-9g-4Uh"/>
+        <segue reference="PWp-q3-4d4"/>
+    </inferredMetricsTieBreakers>
+</document>

@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0421DE5D181A9DE900C3127E /* IDCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421DE5C181A9DE900C3127E /* IDCardView.m */; };
+		0421DE63181AA07A00C3127E /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0421DE62181AA07A00C3127E /* profile.png */; };
+		045F317A181958B500C5F1A0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F3179181958B500C5F1A0 /* MainViewController.m */; };
+		046E799B1819438D0057BFDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046E799A1819438D0057BFDD /* Foundation.framework */; };
+		046E799D1819438D0057BFDD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046E799C1819438D0057BFDD /* CoreGraphics.framework */; };
+		046E799F1819438D0057BFDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046E799E1819438D0057BFDD /* UIKit.framework */; };
+		046E79A51819438D0057BFDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 046E79A31819438D0057BFDD /* InfoPlist.strings */; };
+		046E79A71819438D0057BFDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E79A61819438D0057BFDD /* main.m */; };
+		046E79AB1819438D0057BFDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E79AA1819438D0057BFDD /* AppDelegate.m */; };
+		046E79AE1819438D0057BFDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046E79AC1819438D0057BFDD /* Main.storyboard */; };
+		046E79B31819438D0057BFDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046E79B21819438D0057BFDD /* Images.xcassets */; };
+		046E79BA1819438D0057BFDD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046E79B91819438D0057BFDD /* XCTest.framework */; };
+		046E79BB1819438D0057BFDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046E799A1819438D0057BFDD /* Foundation.framework */; };
+		046E79BC1819438D0057BFDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046E799E1819438D0057BFDD /* UIKit.framework */; };
+		046E79C41819438D0057BFDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 046E79C21819438D0057BFDD /* InfoPlist.strings */; };
+		046E79C61819438D0057BFDD /* WerewolfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E79C51819438D0057BFDD /* WerewolfTests.m */; };
+		04BDB392182E2F410044BB5F /* VillagerRoleCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDB391182E2F410044BB5F /* VillagerRoleCard.m */; };
+		04D90683182A21AC006054CB /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D90682182A21AC006054CB /* Player.m */; };
+		04E147261830BBCD00497AE9 /* Gameresult.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E147251830BBCD00497AE9 /* Gameresult.m */; };
+		04E1A9CA182A8E7B00005963 /* Village.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E1A9C9182A8E7B00005963 /* Village.m */; };
+		04E94E58182E9733001D9094 /* IdentityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E94E57182E9733001D9094 /* IdentityViewController.m */; };
+		04EB4F5C182D3E8A003A5954 /* Death.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB4F5B182D3E8A003A5954 /* Death.m */; };
+		04EB4F5F182D3FA9003A5954 /* CupidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB4F5E182D3FA9003A5954 /* CupidViewController.m */; };
+		04EB700E182B2CD500891FFB /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB700D182B2CD500891FFB /* Event.m */; };
+		04EEC9B8182A1309007C3F20 /* Choosefang.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EEC9B7182A1309007C3F20 /* Choosefang.m */; };
+		04EF8B861829E85F0018B003 /* Waiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF8B851829E85F0018B003 /* Waiting.m */; };
+		04FAF5E7182DC6A9008A1BC0 /* Wolfviewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF5E6182DC6A9008A1BC0 /* Wolfviewcontroller.m */; };
+		04FAF5EA182DC8AB008A1BC0 /* WitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF5E9182DC8AB008A1BC0 /* WitchViewController.m */; };
+		04FB82DA1830C53300974ED3 /* Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB82D91830C53300974ED3 /* Setting.m */; };
+		18219B7B1823D06100579F3A /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 18219B7A1823D06000579F3A /* GCDAsyncSocket.m */; };
+		3F3E4E7E182636FA00CA6427 /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E4E7D182636FA00CA6427 /* IndexViewController.m */; };
+		65439A621823E0AD00A2C7F6 /* 狼人杀1_游戏开始界面(无button字版).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65439A5A1823E0AD00A2C7F6 /* 狼人杀1_游戏开始界面(无button字版).jpg */; };
+		65439A631823E0AD00A2C7F6 /* 狼人杀2_角色选择(无button字版).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65439A5B1823E0AD00A2C7F6 /* 狼人杀2_角色选择(无button字版).jpg */; };
+		6561FAF31832338B00B58A8F /* 村民.png in Resources */ = {isa = PBXBuildFile; fileRef = 6561FAE61832338B00B58A8F /* 村民.png */; };
+		6561FAF41832338B00B58A8F /* 村民胜利！.png in Resources */ = {isa = PBXBuildFile; fileRef = 6561FAE71832338B00B58A8F /* 村民胜利！.png */; };
+		6561FAF51832338B00B58A8F /* 发言完毕.png in Resources */ = {isa = PBXBuildFile; fileRef = 6561FAE81832338B00B58A8F /* 发言完毕.png */; };
+		6561FAF61832338B00B58A8F /* 狼人.png in Resources */ = {isa = PBXBuildFile; fileRef = 6561FAE91832338B00B58A8F /* 狼人.png */; };
+		6561FAF71832338B00B58A8F /* 狼人杀4_角色分配_丘比特.png in Resources */ = {isa = PBXBuildFile; fileRef = 6561FAEA1832338B00B58A8F /* 狼人杀4_角色分配_丘比特.png */; };
+		6561FAF81832338B00B58A8F /* 狼人胜利！.png in Resources */ = {isa = PBXBuildFile; fileRef = 6561FAEB1832338B00B58A8F /* 狼人胜利！.png */; };
+		6561FAF91832338B00B58A8F /* 连接情侣.png in Resources */ = {isa = PBXBuildFile; fileRef = 6561FAEC1832338B00B58A8F /* 连接情侣.png */; };
+		6561FAFA1832338B00B58A8F /* 你的身份是.png in Resources */ = {isa = PBXBuildFile; fileRef = 6561FAED1832338B00B58A8F /* 你的身份是.png */; };
+		6561FAFB1832338B00B58A8F /* 你已死亡！.png in Resources */ = {isa = PBXBuildFile; fileRef = 6561FAEE1832338B00B58A8F /* 你已死亡！.png */; };
+		6561FAFC1832338B00B58A8F /* 女巫.png in Resources */ = {isa = PBXBuildFile; fileRef = 6561FAEF1832338B00B58A8F /* 女巫.png */; };
+		6561FAFD1832338B00B58A8F /* 情侣胜利.png in Resources */ = {isa = PBXBuildFile; fileRef = 6561FAF01832338B00B58A8F /* 情侣胜利.png */; };
+		6561FAFE1832338B00B58A8F /* 丘比特.png in Resources */ = {isa = PBXBuildFile; fileRef = 6561FAF11832338B00B58A8F /* 丘比特.png */; };
+		6561FAFF1832338B00B58A8F /* 遗言结束.png in Resources */ = {isa = PBXBuildFile; fileRef = 6561FAF21832338B00B58A8F /* 遗言结束.png */; };
+		6561FB01183248E100B58A8F /* 狼人杀1_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6561FB00183248E100B58A8F /* 狼人杀1_bg.jpg */; };
+		656C02D218326595000CA74F /* 女巫2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 656C02D118326595000CA74F /* 女巫2.jpg */; };
+		6594AF5C1824FB6500652E42 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6594AF5B1824FB6500652E42 /* QuartzCore.framework */; };
+		6594AF5F1825008100652E42 /* SocketComunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 6594AF5E1825008100652E42 /* SocketComunication.m */; };
+		65B646F31831D82A001B5C6C /* 毒人.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646D91831D82A001B5C6C /* 毒人.png */; };
+		65B646F41831D82A001B5C6C /* 发言完毕.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646DA1831D82A001B5C6C /* 发言完毕.png */; };
+		65B646F51831D82A001B5C6C /* 公用button_返回.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646DB1831D82A001B5C6C /* 公用button_返回.png */; };
+		65B646F61831D82A001B5C6C /* 公用button_确定.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646DC1831D82A001B5C6C /* 公用button_确定.png */; };
+		65B646F71831D82A001B5C6C /* 救人.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646DD1831D82A001B5C6C /* 救人.png */; };
+		65B646F81831D82A001B5C6C /* 狼人杀1_游戏开始界面_帮助.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646DE1831D82A001B5C6C /* 狼人杀1_游戏开始界面_帮助.png */; };
+		65B646F91831D82A001B5C6C /* 狼人杀1_游戏开始界面_开始游戏.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646DF1831D82A001B5C6C /* 狼人杀1_游戏开始界面_开始游戏.png */; };
+		65B646FA1831D82A001B5C6C /* 狼人杀1_游戏开始界面_设置.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646E01831D82A001B5C6C /* 狼人杀1_游戏开始界面_设置.png */; };
+		65B646FB1831D82A001B5C6C /* 狼人杀2_角色选择_房客.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646E11831D82A001B5C6C /* 狼人杀2_角色选择_房客.png */; };
+		65B646FC1831D82A001B5C6C /* 狼人杀2_角色选择_房主.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646E21831D82A001B5C6C /* 狼人杀2_角色选择_房主.png */; };
+		65B646FD1831D82A001B5C6C /* 狼人杀3_人数设定_‘-’符号.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646E31831D82A001B5C6C /* 狼人杀3_人数设定_‘-’符号.png */; };
+		65B646FE1831D82A001B5C6C /* 狼人杀3_人数设定_‘+’符号.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646E41831D82A001B5C6C /* 狼人杀3_人数设定_‘+’符号.png */; };
+		65B646FF1831D82A001B5C6C /* 狼人杀3_人数设定_人数.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646E51831D82A001B5C6C /* 狼人杀3_人数设定_人数.png */; };
+		65B647001831D82A001B5C6C /* 狼人杀4_角色分配_村民.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646E61831D82A001B5C6C /* 狼人杀4_角色分配_村民.png */; };
+		65B647011831D82A001B5C6C /* 狼人杀4_角色分配_盗贼.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646E71831D82A001B5C6C /* 狼人杀4_角色分配_盗贼.png */; };
+		65B647021831D82A001B5C6C /* 狼人杀4_角色分配_狼人.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646E81831D82A001B5C6C /* 狼人杀4_角色分配_狼人.png */; };
+		65B647031831D82A001B5C6C /* 狼人杀4_角色分配_猎人.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646E91831D82A001B5C6C /* 狼人杀4_角色分配_猎人.png */; };
+		65B647041831D82A001B5C6C /* 狼人杀4_角色分配_女巫.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646EA1831D82A001B5C6C /* 狼人杀4_角色分配_女巫.png */; };
+		65B647051831D82A001B5C6C /* 狼人杀4_角色分配_丘比特.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646EB1831D82A001B5C6C /* 狼人杀4_角色分配_丘比特.png */; };
+		65B647061831D82A001B5C6C /* 狼人杀4_角色分配_预言家.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646EC1831D82A001B5C6C /* 狼人杀4_角色分配_预言家.png */; };
+		65B647071831D82A001B5C6C /* 狼人杀7_输入验证_验证码.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646ED1831D82A001B5C6C /* 狼人杀7_输入验证_验证码.png */; };
+		65B647081831D82A001B5C6C /* 狼人杀8_等待加入_验证码.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646EE1831D82A001B5C6C /* 狼人杀8_等待加入_验证码.png */; };
+		65B647091831D82A001B5C6C /* 连接情侣.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646EF1831D82A001B5C6C /* 连接情侣.png */; };
+		65B6470A1831D82A001B5C6C /* 杀人.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646F01831D82A001B5C6C /* 杀人.png */; };
+		65B6470B1831D82A001B5C6C /* 遗言结束.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B646F11831D82A001B5C6C /* 遗言结束.png */; };
+		65B647101831DA8D001B5C6C /* 投票.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B6470F1831DA8D001B5C6C /* 投票.png */; };
+		65D579DE183210EA006B7A52 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579C1183210EA006B7A52 /* 1.mp3 */; };
+		65D579DF183210EA006B7A52 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579C2183210EA006B7A52 /* 2.mp3 */; };
+		65D579E0183210EA006B7A52 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579C3183210EA006B7A52 /* 3.mp3 */; };
+		65D579E1183210EA006B7A52 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579C4183210EA006B7A52 /* 4.mp3 */; };
+		65D579E2183210EA006B7A52 /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579C5183210EA006B7A52 /* 5.mp3 */; };
+		65D579E3183210EA006B7A52 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579C6183210EA006B7A52 /* 6.mp3 */; };
+		65D579E7183210EA006B7A52 /* 今晚死的人是他，你要救他吗.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579CA183210EA006B7A52 /* 今晚死的人是他，你要救他吗.mp3 */; };
+		65D579E8183210EA006B7A52 /* 狼人请闭眼.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579CB183210EA006B7A52 /* 狼人请闭眼.mp3 */; };
+		65D579E9183210EA006B7A52 /* 狼人请杀人.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579CC183210EA006B7A52 /* 狼人请杀人.mp3 */; };
+		65D579EA183210EA006B7A52 /* 狼人请睁眼.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579CD183210EA006B7A52 /* 狼人请睁眼.mp3 */; };
+		65D579EC183210EA006B7A52 /* 女巫请闭眼.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579CF183210EA006B7A52 /* 女巫请闭眼.mp3 */; };
+		65D579ED183210EA006B7A52 /* 女巫请毒人.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579D0183210EA006B7A52 /* 女巫请毒人.mp3 */; };
+		65D579EE183210EA006B7A52 /* 女巫请睁眼.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579D1183210EA006B7A52 /* 女巫请睁眼.mp3 */; };
+		65D579EF183210EA006B7A52 /* 丘比特请闭眼.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579D2183210EA006B7A52 /* 丘比特请闭眼.mp3 */; };
+		65D579F0183210EA006B7A52 /* 丘比特请连情侣.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579D3183210EA006B7A52 /* 丘比特请连情侣.mp3 */; };
+		65D579F1183210EA006B7A52 /* 丘比特请睁眼.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579D4183210EA006B7A52 /* 丘比特请睁眼.mp3 */; };
+		65D579F6183210EA006B7A52 /* end.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579D9183210EA006B7A52 /* end.mp3 */; };
+		65D579F8183210EA006B7A52 /* tianhei.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579DB183210EA006B7A52 /* tianhei.mp3 */; };
+		65D579F9183210EA006B7A52 /* tianliang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579DC183210EA006B7A52 /* tianliang.mp3 */; };
+		65D579FA183210EA006B7A52 /* toupiao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65D579DD183210EA006B7A52 /* toupiao.mp3 */; };
+		65E1E77E18248ABD001FFEAB /* Cupid.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E1E76D18248ABD001FFEAB /* Cupid.m */; };
+		65E1E78118248ABD001FFEAB /* Role.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E1E77318248ABD001FFEAB /* Role.m */; };
+		65E1E78418248ABD001FFEAB /* Villager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E1E77918248ABD001FFEAB /* Villager.m */; };
+		65E1E78518248ABD001FFEAB /* Witch.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E1E77B18248ABD001FFEAB /* Witch.m */; };
+		65E1E78618248ABD001FFEAB /* Wolf.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E1E77D18248ABD001FFEAB /* Wolf.m */; };
+		D05F385D182E484200AEF7EA /* 背面2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D05F3856182E484200AEF7EA /* 背面2.jpg */; };
+		D05F385E182E484200AEF7EA /* 盗贼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D05F3857182E484200AEF7EA /* 盗贼.jpg */; };
+		D05F385F182E484200AEF7EA /* 狼人2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D05F3858182E484200AEF7EA /* 狼人2.jpg */; };
+		D05F3860182E484200AEF7EA /* 猎人.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D05F3859182E484200AEF7EA /* 猎人.jpg */; };
+		D05F3861182E484200AEF7EA /* 普通村民2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D05F385A182E484200AEF7EA /* 普通村民2.jpg */; };
+		D05F3862182E484200AEF7EA /* 丘比特2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D05F385B182E484200AEF7EA /* 丘比特2.jpg */; };
+		D05F3863182E484200AEF7EA /* 预言家2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D05F385C182E484200AEF7EA /* 预言家2.jpg */; };
+		D07D0273182E339000A750A4 /* CupidRoleCard.m in Sources */ = {isa = PBXBuildFile; fileRef = D07D0272182E339000A750A4 /* CupidRoleCard.m */; };
+		D07D0276182E33AD00A750A4 /* WolfRoleCard.m in Sources */ = {isa = PBXBuildFile; fileRef = D07D0275182E33AD00A750A4 /* WolfRoleCard.m */; };
+		D07D0279182E33BD00A750A4 /* WitchRoleCard.m in Sources */ = {isa = PBXBuildFile; fileRef = D07D0278182E33BD00A750A4 /* WitchRoleCard.m */; };
+		D07D027C182E38D200A750A4 /* 狼人杀1_游戏开始界面_帮助.png in Resources */ = {isa = PBXBuildFile; fileRef = D07D027A182E38D200A750A4 /* 狼人杀1_游戏开始界面_帮助.png */; };
+		D07D027D182E38D200A750A4 /* 狼人杀1_游戏开始界面_开始游戏.png in Resources */ = {isa = PBXBuildFile; fileRef = D07D027B182E38D200A750A4 /* 狼人杀1_游戏开始界面_开始游戏.png */; };
+		D07D027F182E38E600A750A4 /* 狼人杀2_角色选择_房客.png in Resources */ = {isa = PBXBuildFile; fileRef = D07D027E182E38E600A750A4 /* 狼人杀2_角色选择_房客.png */; };
+		D07D0282182E390800A750A4 /* 公用button_确定.png in Resources */ = {isa = PBXBuildFile; fileRef = D07D0280182E390800A750A4 /* 公用button_确定.png */; };
+		D07D0283182E390800A750A4 /* 公用button_返回.png in Resources */ = {isa = PBXBuildFile; fileRef = D07D0281182E390800A750A4 /* 公用button_返回.png */; };
+		D07D0285182E391A00A750A4 /* 狼人杀1_游戏开始界面_设置.png in Resources */ = {isa = PBXBuildFile; fileRef = D07D0284182E391A00A750A4 /* 狼人杀1_游戏开始界面_设置.png */; };
+		D07D0287182E39A100A750A4 /* 狼人杀2_角色选择_房主.png in Resources */ = {isa = PBXBuildFile; fileRef = D07D0286182E39A100A750A4 /* 狼人杀2_角色选择_房主.png */; };
+		D07D028D182E3A9100A750A4 /* 狼人杀9_您的身份是_背景.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D07D028C182E3A9100A750A4 /* 狼人杀9_您的身份是_背景.jpg */; };
+		D07D028F182E3BBD00A750A4 /* 狼人杀8_等待加入.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D07D028E182E3BBD00A750A4 /* 狼人杀8_等待加入.jpg */; };
+		D07D0291182E3BDF00A750A4 /* 狼人杀6_游戏设置.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D07D0290182E3BDF00A750A4 /* 狼人杀6_游戏设置.jpg */; };
+		D07D0293182E3BE600A750A4 /* 狼人杀5_游戏介绍.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D07D0292182E3BE600A750A4 /* 狼人杀5_游戏介绍.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046E79BD1819438D0057BFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046E798F1819438D0057BFDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046E79961819438D0057BFDD;
+			remoteInfo = Werewolf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0421DE5B181A9DE900C3127E /* IDCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCardView.h; sourceTree = "<group>"; };
+		0421DE5C181A9DE900C3127E /* IDCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDCardView.m; sourceTree = "<group>"; };
+		0421DE62181AA07A00C3127E /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		045F3178181958B500C5F1A0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		045F3179181958B500C5F1A0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		046E79971819438D0057BFDD /* Werewolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Werewolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046E799A1819438D0057BFDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		046E799C1819438D0057BFDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		046E799E1819438D0057BFDD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		046E79A21819438D0057BFDD /* Werewolf-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Werewolf-Info.plist"; sourceTree = "<group>"; };
+		046E79A41819438D0057BFDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		046E79A61819438D0057BFDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		046E79A81819438D0057BFDD /* Werewolf-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Werewolf-Prefix.pch"; sourceTree = "<group>"; };
+		046E79A91819438D0057BFDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		046E79AA1819438D0057BFDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		046E79AD1819438D0057BFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046E79B21819438D0057BFDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		046E79B81819438D0057BFDD /* WerewolfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WerewolfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046E79B91819438D0057BFDD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		046E79C11819438D0057BFDD /* WerewolfTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WerewolfTests-Info.plist"; sourceTree = "<group>"; };
+		046E79C31819438D0057BFDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		046E79C51819438D0057BFDD /* WerewolfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WerewolfTests.m; sourceTree = "<group>"; };
+		04BDB390182E2F410044BB5F /* VillagerRoleCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VillagerRoleCard.h; sourceTree = "<group>"; };
+		04BDB391182E2F410044BB5F /* VillagerRoleCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VillagerRoleCard.m; sourceTree = "<group>"; };
+		04D90681182A21AC006054CB /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		04D90682182A21AC006054CB /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		04E147241830BBCD00497AE9 /* Gameresult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gameresult.h; sourceTree = "<group>"; };
+		04E147251830BBCD00497AE9 /* Gameresult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gameresult.m; sourceTree = "<group>"; };
+		04E1A9C8182A8E7B00005963 /* Village.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Village.h; path = Werewolf/Village.h; sourceTree = "<group>"; };
+		04E1A9C9182A8E7B00005963 /* Village.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Village.m; path = Werewolf/Village.m; sourceTree = "<group>"; };
+		04E94E56182E9733001D9094 /* IdentityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdentityViewController.h; sourceTree = "<group>"; };
+		04E94E57182E9733001D9094 /* IdentityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdentityViewController.m; sourceTree = "<group>"; };
+		04EB4F5A182D3E8A003A5954 /* Death.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Death.h; path = Werewolf/Death.h; sourceTree = "<group>"; };
+		04EB4F5B182D3E8A003A5954 /* Death.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Death.m; path = Werewolf/Death.m; sourceTree = "<group>"; };
+		04EB4F5D182D3FA9003A5954 /* CupidViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CupidViewController.h; path = Werewolf/CupidViewController.h; sourceTree = "<group>"; };
+		04EB4F5E182D3FA9003A5954 /* CupidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CupidViewController.m; path = Werewolf/CupidViewController.m; sourceTree = "<group>"; };
+		04EB700C182B2CD500891FFB /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		04EB700D182B2CD500891FFB /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		04EEC9B6182A1309007C3F20 /* Choosefang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Choosefang.h; sourceTree = "<group>"; };
+		04EEC9B7182A1309007C3F20 /* Choosefang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Choosefang.m; sourceTree = "<group>"; };
+		04EF8B841829E85F0018B003 /* Waiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waiting.h; sourceTree = "<group>"; };
+		04EF8B851829E85F0018B003 /* Waiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waiting.m; sourceTree = "<group>"; };
+		04FAF5E5182DC6A9008A1BC0 /* Wolfviewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wolfviewcontroller.h; sourceTree = "<group>"; };
+		04FAF5E6182DC6A9008A1BC0 /* Wolfviewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wolfviewcontroller.m; sourceTree = "<group>"; };
+		04FAF5E8182DC8AB008A1BC0 /* WitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WitchViewController.h; sourceTree = "<group>"; };
+		04FAF5E9182DC8AB008A1BC0 /* WitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WitchViewController.m; sourceTree = "<group>"; };
+		04FB82D81830C53300974ED3 /* Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setting.h; sourceTree = "<group>"; };
+		04FB82D91830C53300974ED3 /* Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setting.m; sourceTree = "<group>"; };
+		18219B791823D05600579F3A /* GCDAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		18219B7A1823D06000579F3A /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		3F3E4E7C182636FA00CA6427 /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		3F3E4E7D182636FA00CA6427 /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		65439A5A1823E0AD00A2C7F6 /* 狼人杀1_游戏开始界面(无button字版).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "狼人杀1_游戏开始界面(无button字版).jpg"; path = "Assets/Imgs/狼人杀1_游戏开始界面(无button字版).jpg"; sourceTree = "<group>"; };
+		65439A5B1823E0AD00A2C7F6 /* 狼人杀2_角色选择(无button字版).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "狼人杀2_角色选择(无button字版).jpg"; path = "Assets/Imgs/狼人杀2_角色选择(无button字版).jpg"; sourceTree = "<group>"; };
+		6561FAE61832338B00B58A8F /* 村民.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "村民.png"; path = "Assets/Imgs/Button/村民.png"; sourceTree = "<group>"; };
+		6561FAE71832338B00B58A8F /* 村民胜利！.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "村民胜利！.png"; path = "Assets/Imgs/Button/村民胜利！.png"; sourceTree = "<group>"; };
+		6561FAE81832338B00B58A8F /* 发言完毕.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发言完毕.png"; path = "Assets/Imgs/Button/发言完毕.png"; sourceTree = "<group>"; };
+		6561FAE91832338B00B58A8F /* 狼人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人.png"; path = "Assets/Imgs/Button/狼人.png"; sourceTree = "<group>"; };
+		6561FAEA1832338B00B58A8F /* 狼人杀4_角色分配_丘比特.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀4_角色分配_丘比特.png"; path = "Assets/Imgs/Button/狼人杀4_角色分配_丘比特.png"; sourceTree = "<group>"; };
+		6561FAEB1832338B00B58A8F /* 狼人胜利！.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人胜利！.png"; path = "Assets/Imgs/Button/狼人胜利！.png"; sourceTree = "<group>"; };
+		6561FAEC1832338B00B58A8F /* 连接情侣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "连接情侣.png"; path = "Assets/Imgs/Button/连接情侣.png"; sourceTree = "<group>"; };
+		6561FAED1832338B00B58A8F /* 你的身份是.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "你的身份是.png"; path = "Assets/Imgs/Button/你的身份是.png"; sourceTree = "<group>"; };
+		6561FAEE1832338B00B58A8F /* 你已死亡！.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "你已死亡！.png"; path = "Assets/Imgs/Button/你已死亡！.png"; sourceTree = "<group>"; };
+		6561FAEF1832338B00B58A8F /* 女巫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "女巫.png"; path = "Assets/Imgs/Button/女巫.png"; sourceTree = "<group>"; };
+		6561FAF01832338B00B58A8F /* 情侣胜利.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "情侣胜利.png"; path = "Assets/Imgs/Button/情侣胜利.png"; sourceTree = "<group>"; };
+		6561FAF11832338B00B58A8F /* 丘比特.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "丘比特.png"; path = "Assets/Imgs/Button/丘比特.png"; sourceTree = "<group>"; };
+		6561FAF21832338B00B58A8F /* 遗言结束.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "遗言结束.png"; path = "Assets/Imgs/Button/遗言结束.png"; sourceTree = "<group>"; };
+		6561FB00183248E100B58A8F /* 狼人杀1_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "狼人杀1_bg.jpg"; path = "Assets/Imgs/狼人杀1_bg.jpg"; sourceTree = "<group>"; };
+		656B8EDC18237E0F007FA19F /* 方正古隶简体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "方正古隶简体.ttf"; path = "Assets/方正古隶简体.ttf"; sourceTree = "<group>"; };
+		656B8EDD18237E0F007FA19F /* mzdzt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = mzdzt.ttf; path = Assets/mzdzt.ttf; sourceTree = "<group>"; };
+		656C02D118326595000CA74F /* 女巫2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "女巫2.jpg"; sourceTree = "<group>"; };
+		6594AF5B1824FB6500652E42 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6594AF5D1825008100652E42 /* SocketComunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketComunication.h; sourceTree = "<group>"; };
+		6594AF5E1825008100652E42 /* SocketComunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketComunication.m; sourceTree = "<group>"; };
+		65B646D91831D82A001B5C6C /* 毒人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "毒人.png"; path = "Assets/Imgs/Button/毒人.png"; sourceTree = "<group>"; };
+		65B646DA1831D82A001B5C6C /* 发言完毕.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发言完毕.png"; path = "Assets/Imgs/Button/发言完毕.png"; sourceTree = "<group>"; };
+		65B646DB1831D82A001B5C6C /* 公用button_返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "公用button_返回.png"; path = "Assets/Imgs/Button/公用button_返回.png"; sourceTree = "<group>"; };
+		65B646DC1831D82A001B5C6C /* 公用button_确定.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "公用button_确定.png"; path = "Assets/Imgs/Button/公用button_确定.png"; sourceTree = "<group>"; };
+		65B646DD1831D82A001B5C6C /* 救人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "救人.png"; path = "Assets/Imgs/Button/救人.png"; sourceTree = "<group>"; };
+		65B646DE1831D82A001B5C6C /* 狼人杀1_游戏开始界面_帮助.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀1_游戏开始界面_帮助.png"; path = "Assets/Imgs/Button/狼人杀1_游戏开始界面_帮助.png"; sourceTree = "<group>"; };
+		65B646DF1831D82A001B5C6C /* 狼人杀1_游戏开始界面_开始游戏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀1_游戏开始界面_开始游戏.png"; path = "Assets/Imgs/Button/狼人杀1_游戏开始界面_开始游戏.png"; sourceTree = "<group>"; };
+		65B646E01831D82A001B5C6C /* 狼人杀1_游戏开始界面_设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀1_游戏开始界面_设置.png"; path = "Assets/Imgs/Button/狼人杀1_游戏开始界面_设置.png"; sourceTree = "<group>"; };
+		65B646E11831D82A001B5C6C /* 狼人杀2_角色选择_房客.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀2_角色选择_房客.png"; path = "Assets/Imgs/Button/狼人杀2_角色选择_房客.png"; sourceTree = "<group>"; };
+		65B646E21831D82A001B5C6C /* 狼人杀2_角色选择_房主.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀2_角色选择_房主.png"; path = "Assets/Imgs/Button/狼人杀2_角色选择_房主.png"; sourceTree = "<group>"; };
+		65B646E31831D82A001B5C6C /* 狼人杀3_人数设定_‘-’符号.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀3_人数设定_‘-’符号.png"; path = "Assets/Imgs/Button/狼人杀3_人数设定_‘-’符号.png"; sourceTree = "<group>"; };
+		65B646E41831D82A001B5C6C /* 狼人杀3_人数设定_‘+’符号.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀3_人数设定_‘+’符号.png"; path = "Assets/Imgs/Button/狼人杀3_人数设定_‘+’符号.png"; sourceTree = "<group>"; };
+		65B646E51831D82A001B5C6C /* 狼人杀3_人数设定_人数.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀3_人数设定_人数.png"; path = "Assets/Imgs/Button/狼人杀3_人数设定_人数.png"; sourceTree = "<group>"; };
+		65B646E61831D82A001B5C6C /* 狼人杀4_角色分配_村民.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀4_角色分配_村民.png"; path = "Assets/Imgs/Button/狼人杀4_角色分配_村民.png"; sourceTree = "<group>"; };
+		65B646E71831D82A001B5C6C /* 狼人杀4_角色分配_盗贼.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀4_角色分配_盗贼.png"; path = "Assets/Imgs/Button/狼人杀4_角色分配_盗贼.png"; sourceTree = "<group>"; };
+		65B646E81831D82A001B5C6C /* 狼人杀4_角色分配_狼人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀4_角色分配_狼人.png"; path = "Assets/Imgs/Button/狼人杀4_角色分配_狼人.png"; sourceTree = "<group>"; };
+		65B646E91831D82A001B5C6C /* 狼人杀4_角色分配_猎人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀4_角色分配_猎人.png"; path = "Assets/Imgs/Button/狼人杀4_角色分配_猎人.png"; sourceTree = "<group>"; };
+		65B646EA1831D82A001B5C6C /* 狼人杀4_角色分配_女巫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀4_角色分配_女巫.png"; path = "Assets/Imgs/Button/狼人杀4_角色分配_女巫.png"; sourceTree = "<group>"; };
+		65B646EB1831D82A001B5C6C /* 狼人杀4_角色分配_丘比特.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀4_角色分配_丘比特.png"; path = "Assets/Imgs/Button/狼人杀4_角色分配_丘比特.png"; sourceTree = "<group>"; };
+		65B646EC1831D82A001B5C6C /* 狼人杀4_角色分配_预言家.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀4_角色分配_预言家.png"; path = "Assets/Imgs/Button/狼人杀4_角色分配_预言家.png"; sourceTree = "<group>"; };
+		65B646ED1831D82A001B5C6C /* 狼人杀7_输入验证_验证码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀7_输入验证_验证码.png"; path = "Assets/Imgs/Button/狼人杀7_输入验证_验证码.png"; sourceTree = "<group>"; };
+		65B646EE1831D82A001B5C6C /* 狼人杀8_等待加入_验证码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "狼人杀8_等待加入_验证码.png"; path = "Assets/Imgs/Button/狼人杀8_等待加入_验证码.png"; sourceTree = "<group>"; };
+		65B646EF1831D82A001B5C6C /* 连接情侣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "连接情侣.png"; path = "Assets/Imgs/Button/连接情侣.png"; sourceTree = "<group>"; };
+		65B646F01831D82A001B5C6C /* 杀人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "杀人.png"; path = "Assets/Imgs/Button/杀人.png"; sourceTree = "<group>"; };
+		65B646F11831D82A001B5C6C /* 遗言结束.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "遗言结束.png"; path = "Assets/Imgs/Button/遗言结束.png"; sourceTree = "<group>"; };
+		65B6470F1831DA8D001B5C6C /* 投票.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "投票.png"; path = "Assets/Imgs/Button/投票.png"; sourceTree = "<group>"; };
+		65D579C1183210EA006B7A52 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 1.mp3; path = Assets/Sounds/1.mp3; sourceTree = "<group>"; };
+		65D579C2183210EA006B7A52 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 2.mp3; path = Assets/Sounds/2.mp3; sourceTree = "<group>"; };
+		65D579C3183210EA006B7A52 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 3.mp3; path = Assets/Sounds/3.mp3; sourceTree = "<group>"; };
+		65D579C4183210EA006B7A52 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 4.mp3; path = Assets/Sounds/4.mp3; sourceTree = "<group>"; };
+		65D579C5183210EA006B7A52 /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 5.mp3; path = Assets/Sounds/5.mp3; sourceTree = "<group>"; };
+		65D579C6183210EA006B7A52 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 6.mp3; path = Assets/Sounds/6.mp3; sourceTree = "<group>"; };
+		65D579CA183210EA006B7A52 /* 今晚死的人是他，你要救他吗.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "今晚死的人是他，你要救他吗.mp3"; path = "Assets/Sounds/今晚死的人是他，你要救他吗.mp3"; sourceTree = "<group>"; };
+		65D579CB183210EA006B7A52 /* 狼人请闭眼.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "狼人请闭眼.mp3"; path = "Assets/Sounds/狼人请闭眼.mp3"; sourceTree = "<group>"; };
+		65D579CC183210EA006B7A52 /* 狼人请杀人.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "狼人请杀人.mp3"; path = "Assets/Sounds/狼人请杀人.mp3"; sourceTree = "<group>"; };
+		65D579CD183210EA006B7A52 /* 狼人请睁眼.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "狼人请睁眼.mp3"; path = "Assets/Sounds/狼人请睁眼.mp3"; sourceTree = "<group>"; };
+		65D579CF183210EA006B7A52 /* 女巫请闭眼.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "女巫请闭眼.mp3"; path = "Assets/Sounds/女巫请闭眼.mp3"; sourceTree = "<group>"; };
+		65D579D0183210EA006B7A52 /* 女巫请毒人.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "女巫请毒人.mp3"; path = "Assets/Sounds/女巫请毒人.mp3"; sourceTree = "<group>"; };
+		65D579D1183210EA006B7A52 /* 女巫请睁眼.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "女巫请睁眼.mp3"; path = "Assets/Sounds/女巫请睁眼.mp3"; sourceTree = "<group>"; };
+		65D579D2183210EA006B7A52 /* 丘比特请闭眼.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "丘比特请闭眼.mp3"; path = "Assets/Sounds/丘比特请闭眼.mp3"; sourceTree = "<group>"; };
+		65D579D3183210EA006B7A52 /* 丘比特请连情侣.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "丘比特请连情侣.mp3"; path = "Assets/Sounds/丘比特请连情侣.mp3"; sourceTree = "<group>"; };
+		65D579D4183210EA006B7A52 /* 丘比特请睁眼.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "丘比特请睁眼.mp3"; path = "Assets/Sounds/丘比特请睁眼.mp3"; sourceTree = "<group>"; };
+		65D579D9183210EA006B7A52 /* end.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = end.mp3; path = Assets/Sounds/end.mp3; sourceTree = "<group>"; };
+		65D579DB183210EA006B7A52 /* tianhei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = tianhei.mp3; path = Assets/Sounds/tianhei.mp3; sourceTree = "<group>"; };
+		65D579DC183210EA006B7A52 /* tianliang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = tianliang.mp3; path = Assets/Sounds/tianliang.mp3; sourceTree = "<group>"; };
+		65D579DD183210EA006B7A52 /* toupiao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = toupiao.mp3; path = Assets/Sounds/toupiao.mp3; sourceTree = "<group>"; };
+		65E1E76C18248ABD001FFEAB /* Cupid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cupid.h; path = Werewolf/model/Cupid.h; sourceTree = "<group>"; };
+		65E1E76D18248ABD001FFEAB /* Cupid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cupid.m; path = Werewolf/model/Cupid.m; sourceTree = "<group>"; };
+		65E1E77218248ABD001FFEAB /* Role.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Role.h; path = Werewolf/model/Role.h; sourceTree = "<group>"; };
+		65E1E77318248ABD001FFEAB /* Role.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Role.m; path = Werewolf/model/Role.m; sourceTree = "<group>"; };
+		65E1E77818248ABD001FFEAB /* Villager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Villager.h; path = Werewolf/model/Villager.h; sourceTree = "<group>"; };
+		65E1E77918248ABD001FFEAB /* Villager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Villager.m; path = Werewolf/model/Villager.m; sourceTree = "<group>"; };
+		65E1E77A18248ABD001FFEAB /* Witch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Witch.h; path = Werewolf/model/Witch.h; sourceTree = "<group>"; };
+		65E1E77B18248ABD001FFEAB /* Witch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Witch.m; path = Werewolf/model/Witch.m; sourceTree = "<group>"; };
+		65E1E77C18248ABD001FFEAB /* Wolf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wolf.h; path = Werewolf/model/Wolf.h; sourceTree = "<group>"; };
+		65E1E77D18248ABD001FFEAB /* Wolf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Wolf.m; path = Werewolf/model/Wolf.m; sourceTree = "<group>"; };
+		D05F3856182E484200AEF7EA /* 背面2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背面2.jpg"; sourceTree = "<group>"; };
+		D05F3857182E484200AEF7EA /* 盗贼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "盗贼.jpg"; sourceTree = "<group>"; };
+		D05F3858182E484200AEF7EA /* 狼人2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "狼人2.jpg"; sourceTree = "<group>"; };
+		D05F3859182E484200AEF7EA /* 猎人.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猎人.jpg"; sourceTree = "<group>"; };
+		D05F385A182E484200AEF7EA /* 普通村民2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "普通村民2.jpg"; sourceTree = "<group>"; };
+		D05F385B182E484200AEF7EA /* 丘比特2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "丘比特2.jpg"; sourceTree = "<group>"; };
+		D05F385C182E484200AEF7EA /* 预言家2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "预言家2.jpg"; sourceTree = "<group>"; };
+		D07D0271182E339000A750A4 /* CupidRoleCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CupidRoleCard.h; sourceTree = "<group>"; };
+		D07D0272182E339000A750A4 /* CupidRoleCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CupidRoleCard.m; sourceTree = "<group>"; };
+		D07D0274182E33AD00A750A4 /* WolfRoleCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WolfRoleCard.h; sourceTree = "<group>"; };
+		D07D0275182E33AD00A750A4 /* WolfRoleCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WolfRoleCard.m; sourceTree = "<group>"; };
+		D07D0277182E33BD00A750A4 /* WitchRoleCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WitchRoleCard.h; sourceTree = "<group>"; };
+		D07D0278182E33BD00A750A4 /* WitchRoleCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WitchRoleCard.m; sourceTree = "<group>"; };
+		D07D027A182E38D200A750A4 /* 狼人杀1_游戏开始界面_帮助.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "狼人杀1_游戏开始界面_帮助.png"; sourceTree = "<group>"; };
+		D07D027B182E38D200A750A4 /* 狼人杀1_游戏开始界面_开始游戏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "狼人杀1_游戏开始界面_开始游戏.png"; sourceTree = "<group>"; };
+		D07D027E182E38E600A750A4 /* 狼人杀2_角色选择_房客.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "狼人杀2_角色选择_房客.png"; sourceTree = "<group>"; };
+		D07D0280182E390800A750A4 /* 公用button_确定.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "公用button_确定.png"; sourceTree = "<group>"; };
+		D07D0281182E390800A750A4 /* 公用button_返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "公用button_返回.png"; sourceTree = "<group>"; };
+		D07D0284182E391A00A750A4 /* 狼人杀1_游戏开始界面_设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "狼人杀1_游戏开始界面_设置.png"; sourceTree = "<group>"; };
+		D07D0286182E39A100A750A4 /* 狼人杀2_角色选择_房主.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "狼人杀2_角色选择_房主.png"; sourceTree = "<group>"; };
+		D07D028C182E3A9100A750A4 /* 狼人杀9_您的身份是_背景.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "狼人杀9_您的身份是_背景.jpg"; sourceTree = "<group>"; };
+		D07D028E182E3BBD00A750A4 /* 狼人杀8_等待加入.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "狼人杀8_等待加入.jpg"; sourceTree = "<group>"; };
+		D07D0290182E3BDF00A750A4 /* 狼人杀6_游戏设置.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "狼人杀6_游戏设置.jpg"; sourceTree = "<group>"; };
+		D07D0292182E3BE600A750A4 /* 狼人杀5_游戏介绍.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "狼人杀5_游戏介绍.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046E79941819438D0057BFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6594AF5C1824FB6500652E42 /* QuartzCore.framework in Frameworks */,
+				046E799D1819438D0057BFDD /* CoreGraphics.framework in Frameworks */,
+				046E799F1819438D0057BFDD /* UIKit.framework in Frameworks */,
+				046E799B1819438D0057BFDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E79B51819438D0057BFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046E79BA1819438D0057BFDD /* XCTest.framework in Frameworks */,
+				046E79BC1819438D0057BFDD /* UIKit.framework in Frameworks */,
+				046E79BB1819438D0057BFDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0421DE61181AA06200C3127E /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				656C02D118326595000CA74F /* 女巫2.jpg */,
+				6561FB00183248E100B58A8F /* 狼人杀1_bg.jpg */,
+				6561FAE51832337400B58A8F /* Text */,
+				65B646B21831D26D001B5C6C /* Button */,
+				D05F3856182E484200AEF7EA /* 背面2.jpg */,
+				D05F3857182E484200AEF7EA /* 盗贼.jpg */,
+				D05F3858182E484200AEF7EA /* 狼人2.jpg */,
+				D05F3859182E484200AEF7EA /* 猎人.jpg */,
+				D05F385A182E484200AEF7EA /* 普通村民2.jpg */,
+				D05F385B182E484200AEF7EA /* 丘比特2.jpg */,
+				D05F385C182E484200AEF7EA /* 预言家2.jpg */,
+				D07D027E182E38E600A750A4 /* 狼人杀2_角色选择_房客.png */,
+				D07D0280182E390800A750A4 /* 公用button_确定.png */,
+				D07D0281182E390800A750A4 /* 公用button_返回.png */,
+				D07D0292182E3BE600A750A4 /* 狼人杀5_游戏介绍.jpg */,
+				D07D0284182E391A00A750A4 /* 狼人杀1_游戏开始界面_设置.png */,
+				D07D0290182E3BDF00A750A4 /* 狼人杀6_游戏设置.jpg */,
+				D07D027A182E38D200A750A4 /* 狼人杀1_游戏开始界面_帮助.png */,
+				D07D0286182E39A100A750A4 /* 狼人杀2_角色选择_房主.png */,
+				D07D027B182E38D200A750A4 /* 狼人杀1_游戏开始界面_开始游戏.png */,
+				65439A5A1823E0AD00A2C7F6 /* 狼人杀1_游戏开始界面(无button字版).jpg */,
+				D07D028E182E3BBD00A750A4 /* 狼人杀8_等待加入.jpg */,
+				D07D028C182E3A9100A750A4 /* 狼人杀9_您的身份是_背景.jpg */,
+				65439A5B1823E0AD00A2C7F6 /* 狼人杀2_角色选择(无button字版).jpg */,
+				0421DE62181AA07A00C3127E /* profile.png */,
+			);
+			name = imgs;
+			sourceTree = "<group>";
+		};
+		046E798E1819438D0057BFDD = {
+			isa = PBXGroup;
+			children = (
+				65D579C018320F6F006B7A52 /* sounds */,
+				04E94E55182E96AF001D9094 /* XXS */,
+				04E1A9CB182A928400005963 /* ClientCommonFiles */,
+				65E1E75018248A7C001FFEAB /* Model */,
+				656B8EDA18237DAF007FA19F /* fonts */,
+				656B8EC418235768007FA19F /* ViewController */,
+				656B8EC318235757007FA19F /* View */,
+				046E79A01819438D0057BFDD /* Werewolf */,
+				0421DE61181AA06200C3127E /* imgs */,
+				0421DE5B181A9DE900C3127E /* IDCardView.h */,
+				0421DE5C181A9DE900C3127E /* IDCardView.m */,
+				18219B7A1823D06000579F3A /* GCDAsyncSocket.m */,
+				18219B791823D05600579F3A /* GCDAsyncSocket.h */,
+				6594AF5D1825008100652E42 /* SocketComunication.h */,
+				6594AF5E1825008100652E42 /* SocketComunication.m */,
+				046E79BF1819438D0057BFDD /* WerewolfTests */,
+				046E79991819438D0057BFDD /* Frameworks */,
+				046E79981819438D0057BFDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046E79981819438D0057BFDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046E79971819438D0057BFDD /* Werewolf.app */,
+				046E79B81819438D0057BFDD /* WerewolfTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046E79991819438D0057BFDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6594AF5B1824FB6500652E42 /* QuartzCore.framework */,
+				046E799A1819438D0057BFDD /* Foundation.framework */,
+				046E799C1819438D0057BFDD /* CoreGraphics.framework */,
+				046E799E1819438D0057BFDD /* UIKit.framework */,
+				046E79B91819438D0057BFDD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		046E79A01819438D0057BFDD /* Werewolf */ = {
+			isa = PBXGroup;
+			children = (
+				046E79A91819438D0057BFDD /* AppDelegate.h */,
+				046E79AA1819438D0057BFDD /* AppDelegate.m */,
+				046E79AC1819438D0057BFDD /* Main.storyboard */,
+				045F3178181958B500C5F1A0 /* MainViewController.h */,
+				045F3179181958B500C5F1A0 /* MainViewController.m */,
+				046E79B21819438D0057BFDD /* Images.xcassets */,
+				046E79A11819438D0057BFDD /* Supporting Files */,
+			);
+			path = Werewolf;
+			sourceTree = "<group>";
+		};
+		046E79A11819438D0057BFDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				046E79A21819438D0057BFDD /* Werewolf-Info.plist */,
+				046E79A31819438D0057BFDD /* InfoPlist.strings */,
+				046E79A61819438D0057BFDD /* main.m */,
+				046E79A81819438D0057BFDD /* Werewolf-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		046E79BF1819438D0057BFDD /* WerewolfTests */ = {
+			isa = PBXGroup;
+			children = (
+				046E79C51819438D0057BFDD /* WerewolfTests.m */,
+				046E79C01819438D0057BFDD /* Supporting Files */,
+			);
+			path = WerewolfTests;
+			sourceTree = "<group>";
+		};
+		046E79C01819438D0057BFDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				046E79C11819438D0057BFDD /* WerewolfTests-Info.plist */,
+				046E79C21819438D0057BFDD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E1A9CB182A928400005963 /* ClientCommonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				04EB700C182B2CD500891FFB /* Event.h */,
+				04EB700D182B2CD500891FFB /* Event.m */,
+			);
+			name = ClientCommonFiles;
+			sourceTree = "<group>";
+		};
+		04E94E55182E96AF001D9094 /* XXS */ = {
+			isa = PBXGroup;
+			children = (
+				04E94E56182E9733001D9094 /* IdentityViewController.h */,
+				04E94E57182E9733001D9094 /* IdentityViewController.m */,
+			);
+			name = XXS;
+			sourceTree = "<group>";
+		};
+		6561FAE51832337400B58A8F /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				6561FAE61832338B00B58A8F /* 村民.png */,
+				6561FAE71832338B00B58A8F /* 村民胜利！.png */,
+				6561FAE81832338B00B58A8F /* 发言完毕.png */,
+				6561FAE91832338B00B58A8F /* 狼人.png */,
+				6561FAEA1832338B00B58A8F /* 狼人杀4_角色分配_丘比特.png */,
+				6561FAEB1832338B00B58A8F /* 狼人胜利！.png */,
+				6561FAEC1832338B00B58A8F /* 连接情侣.png */,
+				6561FAED1832338B00B58A8F /* 你的身份是.png */,
+				6561FAEE1832338B00B58A8F /* 你已死亡！.png */,
+				6561FAEF1832338B00B58A8F /* 女巫.png */,
+				6561FAF01832338B00B58A8F /* 情侣胜利.png */,
+				6561FAF11832338B00B58A8F /* 丘比特.png */,
+				6561FAF21832338B00B58A8F /* 遗言结束.png */,
+			);
+			name = Text;
+			sourceTree = "<group>";
+		};
+		656B8EC318235757007FA19F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0421DE5B181A9DE900C3127E /* IDCardView.h */,
+				0421DE5C181A9DE900C3127E /* IDCardView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		656B8EC418235768007FA19F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04EB4F5A182D3E8A003A5954 /* Death.h */,
+				04EB4F5B182D3E8A003A5954 /* Death.m */,
+				04EB4F5D182D3FA9003A5954 /* CupidViewController.h */,
+				04EB4F5E182D3FA9003A5954 /* CupidViewController.m */,
+				04E1A9C8182A8E7B00005963 /* Village.h */,
+				04E1A9C9182A8E7B00005963 /* Village.m */,
+				3F3E4E7C182636FA00CA6427 /* IndexViewController.h */,
+				3F3E4E7D182636FA00CA6427 /* IndexViewController.m */,
+				04EF8B841829E85F0018B003 /* Waiting.h */,
+				04EF8B851829E85F0018B003 /* Waiting.m */,
+				04EEC9B6182A1309007C3F20 /* Choosefang.h */,
+				04EEC9B7182A1309007C3F20 /* Choosefang.m */,
+				04FAF5E5182DC6A9008A1BC0 /* Wolfviewcontroller.h */,
+				04FAF5E6182DC6A9008A1BC0 /* Wolfviewcontroller.m */,
+				04FAF5E8182DC8AB008A1BC0 /* WitchViewController.h */,
+				04FAF5E9182DC8AB008A1BC0 /* WitchViewController.m */,
+				04BDB390182E2F410044BB5F /* VillagerRoleCard.h */,
+				04BDB391182E2F410044BB5F /* VillagerRoleCard.m */,
+				D07D0271182E339000A750A4 /* CupidRoleCard.h */,
+				D07D0272182E339000A750A4 /* CupidRoleCard.m */,
+				D07D0274182E33AD00A750A4 /* WolfRoleCard.h */,
+				D07D0275182E33AD00A750A4 /* WolfRoleCard.m */,
+				D07D0277182E33BD00A750A4 /* WitchRoleCard.h */,
+				D07D0278182E33BD00A750A4 /* WitchRoleCard.m */,
+				04E147241830BBCD00497AE9 /* Gameresult.h */,
+				04E147251830BBCD00497AE9 /* Gameresult.m */,
+				04FB82D81830C53300974ED3 /* Setting.h */,
+				04FB82D91830C53300974ED3 /* Setting.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		656B8EDA18237DAF007FA19F /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				656B8EDC18237E0F007FA19F /* 方正古隶简体.ttf */,
+				656B8EDD18237E0F007FA19F /* mzdzt.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		65B646B21831D26D001B5C6C /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				65B6470F1831DA8D001B5C6C /* 投票.png */,
+				65B646D91831D82A001B5C6C /* 毒人.png */,
+				65B646DA1831D82A001B5C6C /* 发言完毕.png */,
+				65B646DB1831D82A001B5C6C /* 公用button_返回.png */,
+				65B646DC1831D82A001B5C6C /* 公用button_确定.png */,
+				65B646DD1831D82A001B5C6C /* 救人.png */,
+				65B646DE1831D82A001B5C6C /* 狼人杀1_游戏开始界面_帮助.png */,
+				65B646DF1831D82A001B5C6C /* 狼人杀1_游戏开始界面_开始游戏.png */,
+				65B646E01831D82A001B5C6C /* 狼人杀1_游戏开始界面_设置.png */,
+				65B646E11831D82A001B5C6C /* 狼人杀2_角色选择_房客.png */,
+				65B646E21831D82A001B5C6C /* 狼人杀2_角色选择_房主.png */,
+				65B646E31831D82A001B5C6C /* 狼人杀3_人数设定_‘-’符号.png */,
+				65B646E41831D82A001B5C6C /* 狼人杀3_人数设定_‘+’符号.png */,
+				65B646E51831D82A001B5C6C /* 狼人杀3_人数设定_人数.png */,
+				65B646E61831D82A001B5C6C /* 狼人杀4_角色分配_村民.png */,
+				65B646E71831D82A001B5C6C /* 狼人杀4_角色分配_盗贼.png */,
+				65B646E81831D82A001B5C6C /* 狼人杀4_角色分配_狼人.png */,
+				65B646E91831D82A001B5C6C /* 狼人杀4_角色分配_猎人.png */,
+				65B646EA1831D82A001B5C6C /* 狼人杀4_角色分配_女巫.png */,
+				65B646EB1831D82A001B5C6C /* 狼人杀4_角色分配_丘比特.png */,
+				65B646EC1831D82A001B5C6C /* 狼人杀4_角色分配_预言家.png */,
+				65B646ED1831D82A001B5C6C /* 狼人杀7_输入验证_验证码.png */,
+				65B646EE1831D82A001B5C6C /* 狼人杀8_等待加入_验证码.png */,
+				65B646EF1831D82A001B5C6C /* 连接情侣.png */,
+				65B646F01831D82A001B5C6C /* 杀人.png */,
+				65B646F11831D82A001B5C6C /* 遗言结束.png */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
+		65D579C018320F6F006B7A52 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				65D579C1183210EA006B7A52 /* 1.mp3 */,
+				65D579C2183210EA006B7A52 /* 2.mp3 */,
+				65D579C3183210EA006B7A52 /* 3.mp3 */,
+				65D579C4183210EA006B7A52 /* 4.mp3 */,
+				65D579C5183210EA006B7A52 /* 5.mp3 */,
+				65D579C6183210EA006B7A52 /* 6.mp3 */,
+				65D579CA183210EA006B7A52 /* 今晚死的人是他，你要救他吗.mp3 */,
+				65D579CB183210EA006B7A52 /* 狼人请闭眼.mp3 */,
+				65D579CC183210EA006B7A52 /* 狼人请杀人.mp3 */,
+				65D579CD183210EA006B7A52 /* 狼人请睁眼.mp3 */,
+				65D579CF183210EA006B7A52 /* 女巫请闭眼.mp3 */,
+				65D579D0183210EA006B7A52 /* 女巫请毒人.mp3 */,
+				65D579D1183210EA006B7A52 /* 女巫请睁眼.mp3 */,
+				65D579D2183210EA006B7A52 /* 丘比特请闭眼.mp3 */,
+				65D579D3183210EA006B7A52 /* 丘比特请连情侣.mp3 */,
+				65D579D4183210EA006B7A52 /* 丘比特请睁眼.mp3 */,
+				65D579D9183210EA006B7A52 /* end.mp3 */,
+				65D579DB183210EA006B7A52 /* tianhei.mp3 */,
+				65D579DC183210EA006B7A52 /* tianliang.mp3 */,
+				65D579DD183210EA006B7A52 /* toupiao.mp3 */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+		65E1E75018248A7C001FFEAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65E1E76C18248ABD001FFEAB /* Cupid.h */,
+				65E1E76D18248ABD001FFEAB /* Cupid.m */,
+				65E1E77218248ABD001FFEAB /* Role.h */,
+				65E1E77318248ABD001FFEAB /* Role.m */,
+				65E1E77818248ABD001FFEAB /* Villager.h */,
+				65E1E77918248ABD001FFEAB /* Villager.m */,
+				65E1E77A18248ABD001FFEAB /* Witch.h */,
+				65E1E77B18248ABD001FFEAB /* Witch.m */,
+				65E1E77C18248ABD001FFEAB /* Wolf.h */,
+				65E1E77D18248ABD001FFEAB /* Wolf.m */,
+				04D90681182A21AC006054CB /* Player.h */,
+				04D90682182A21AC006054CB /* Player.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046E79961819438D0057BFDD /* Werewolf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046E79C91819438D0057BFDD /* Build configuration list for PBXNativeTarget "Werewolf" */;
+			buildPhases = (
+				046E79931819438D0057BFDD /* Sources */,
+				046E79941819438D0057BFDD /* Frameworks */,
+				046E79951819438D0057BFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Werewolf;
+			productName = Werewolf;
+			productReference = 046E79971819438D0057BFDD /* Werewolf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046E79B71819438D0057BFDD /* WerewolfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046E79CC1819438D0057BFDD /* Build configuration list for PBXNativeTarget "WerewolfTests" */;
+			buildPhases = (
+				046E79B41819438D0057BFDD /* Sources */,
+				046E79B51819438D0057BFDD /* Frameworks */,
+				046E79B61819438D0057BFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046E79BE1819438D0057BFDD /* PBXTargetDependency */,
+			);
+			name = WerewolfTests;
+			productName = WerewolfTests;
+			productReference = 046E79B81819438D0057BFDD /* WerewolfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046E798F1819438D0057BFDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = xmucocoa;
+				TargetAttributes = {
+					046E79B71819438D0057BFDD = {
+						TestTargetID = 046E79961819438D0057BFDD;
+					};
+				};
+			};
+			buildConfigurationList = 046E79921819438D0057BFDD /* Build configuration list for PBXProject "Werewolf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046E798E1819438D0057BFDD;
+			productRefGroup = 046E79981819438D0057BFDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046E79961819438D0057BFDD /* Werewolf */,
+				046E79B71819438D0057BFDD /* WerewolfTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046E79951819438D0057BFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D579EA183210EA006B7A52 /* 狼人请睁眼.mp3 in Resources */,
+				65D579F8183210EA006B7A52 /* tianhei.mp3 in Resources */,
+				D07D027F182E38E600A750A4 /* 狼人杀2_角色选择_房客.png in Resources */,
+				65B647071831D82A001B5C6C /* 狼人杀7_输入验证_验证码.png in Resources */,
+				6561FAF51832338B00B58A8F /* 发言完毕.png in Resources */,
+				65B646FC1831D82A001B5C6C /* 狼人杀2_角色选择_房主.png in Resources */,
+				65B647011831D82A001B5C6C /* 狼人杀4_角色分配_盗贼.png in Resources */,
+				65B646F81831D82A001B5C6C /* 狼人杀1_游戏开始界面_帮助.png in Resources */,
+				6561FAFD1832338B00B58A8F /* 情侣胜利.png in Resources */,
+				656C02D218326595000CA74F /* 女巫2.jpg in Resources */,
+				65B647081831D82A001B5C6C /* 狼人杀8_等待加入_验证码.png in Resources */,
+				D07D0291182E3BDF00A750A4 /* 狼人杀6_游戏设置.jpg in Resources */,
+				65B647001831D82A001B5C6C /* 狼人杀4_角色分配_村民.png in Resources */,
+				D05F3860182E484200AEF7EA /* 猎人.jpg in Resources */,
+				6561FAFE1832338B00B58A8F /* 丘比特.png in Resources */,
+				65D579E1183210EA006B7A52 /* 4.mp3 in Resources */,
+				65D579F6183210EA006B7A52 /* end.mp3 in Resources */,
+				6561FAFB1832338B00B58A8F /* 你已死亡！.png in Resources */,
+				65B646FE1831D82A001B5C6C /* 狼人杀3_人数设定_‘+’符号.png in Resources */,
+				65D579EF183210EA006B7A52 /* 丘比特请闭眼.mp3 in Resources */,
+				65D579E2183210EA006B7A52 /* 5.mp3 in Resources */,
+				65D579FA183210EA006B7A52 /* toupiao.mp3 in Resources */,
+				65B647041831D82A001B5C6C /* 狼人杀4_角色分配_女巫.png in Resources */,
+				D05F3863182E484200AEF7EA /* 预言家2.jpg in Resources */,
+				65B646F41831D82A001B5C6C /* 发言完毕.png in Resources */,
+				65D579E7183210EA006B7A52 /* 今晚死的人是他，你要救他吗.mp3 in Resources */,
+				D05F385F182E484200AEF7EA /* 狼人2.jpg in Resources */,
+				D07D0287182E39A100A750A4 /* 狼人杀2_角色选择_房主.png in Resources */,
+				65D579E8183210EA006B7A52 /* 狼人请闭眼.mp3 in Resources */,
+				65D579E3183210EA006B7A52 /* 6.mp3 in Resources */,
+				65B6470A1831D82A001B5C6C /* 杀人.png in Resources */,
+				D07D0283182E390800A750A4 /* 公用button_返回.png in Resources */,
+				65B646F31831D82A001B5C6C /* 毒人.png in Resources */,
+				6561FAF61832338B00B58A8F /* 狼人.png in Resources */,
+				65B647091831D82A001B5C6C /* 连接情侣.png in Resources */,
+				6561FAF71832338B00B58A8F /* 狼人杀4_角色分配_丘比特.png in Resources */,
+				65B647061831D82A001B5C6C /* 狼人杀4_角色分配_预言家.png in Resources */,
+				65B647031831D82A001B5C6C /* 狼人杀4_角色分配_猎人.png in Resources */,
+				D07D0282182E390800A750A4 /* 公用button_确定.png in Resources */,
+				D05F385E182E484200AEF7EA /* 盗贼.jpg in Resources */,
+				65439A631823E0AD00A2C7F6 /* 狼人杀2_角色选择(无button字版).jpg in Resources */,
+				6561FAFA1832338B00B58A8F /* 你的身份是.png in Resources */,
+				6561FB01183248E100B58A8F /* 狼人杀1_bg.jpg in Resources */,
+				D05F385D182E484200AEF7EA /* 背面2.jpg in Resources */,
+				D07D0285182E391A00A750A4 /* 狼人杀1_游戏开始界面_设置.png in Resources */,
+				65B647021831D82A001B5C6C /* 狼人杀4_角色分配_狼人.png in Resources */,
+				65D579DE183210EA006B7A52 /* 1.mp3 in Resources */,
+				65B6470B1831D82A001B5C6C /* 遗言结束.png in Resources */,
+				65D579F9183210EA006B7A52 /* tianliang.mp3 in Resources */,
+				65D579F1183210EA006B7A52 /* 丘比特请睁眼.mp3 in Resources */,
+				6561FAF81832338B00B58A8F /* 狼人胜利！.png in Resources */,
+				65D579DF183210EA006B7A52 /* 2.mp3 in Resources */,
+				65B646FB1831D82A001B5C6C /* 狼人杀2_角色选择_房客.png in Resources */,
+				046E79B31819438D0057BFDD /* Images.xcassets in Resources */,
+				65D579ED183210EA006B7A52 /* 女巫请毒人.mp3 in Resources */,
+				6561FAF31832338B00B58A8F /* 村民.png in Resources */,
+				65B647101831DA8D001B5C6C /* 投票.png in Resources */,
+				65B646FD1831D82A001B5C6C /* 狼人杀3_人数设定_‘-’符号.png in Resources */,
+				65B646FF1831D82A001B5C6C /* 狼人杀3_人数设定_人数.png in Resources */,
+				6561FAFC1832338B00B58A8F /* 女巫.png in Resources */,
+				65D579F0183210EA006B7A52 /* 丘比特请连情侣.mp3 in Resources */,
+				D07D027C182E38D200A750A4 /* 狼人杀1_游戏开始界面_帮助.png in Resources */,
+				046E79A51819438D0057BFDD /* InfoPlist.strings in Resources */,
+				046E79AE1819438D0057BFDD /* Main.storyboard in Resources */,
+				6561FAF91832338B00B58A8F /* 连接情侣.png in Resources */,
+				6561FAFF1832338B00B58A8F /* 遗言结束.png in Resources */,
+				D07D0293182E3BE600A750A4 /* 狼人杀5_游戏介绍.jpg in Resources */,
+				65D579E0183210EA006B7A52 /* 3.mp3 in Resources */,
+				D05F3862182E484200AEF7EA /* 丘比特2.jpg in Resources */,
+				65D579EE183210EA006B7A52 /* 女巫请睁眼.mp3 in Resources */,
+				65B646F91831D82A001B5C6C /* 狼人杀1_游戏开始界面_开始游戏.png in Resources */,
+				65B646F51831D82A001B5C6C /* 公用button_返回.png in Resources */,
+				65D579EC183210EA006B7A52 /* 女巫请闭眼.mp3 in Resources */,
+				6561FAF41832338B00B58A8F /* 村民胜利！.png in Resources */,
+				65B647051831D82A001B5C6C /* 狼人杀4_角色分配_丘比特.png in Resources */,
+				65B646F71831D82A001B5C6C /* 救人.png in Resources */,
+				D05F3861182E484200AEF7EA /* 普通村民2.jpg in Resources */,
+				D07D028D182E3A9100A750A4 /* 狼人杀9_您的身份是_背景.jpg in Resources */,
+				65B646F61831D82A001B5C6C /* 公用button_确定.png in Resources */,
+				65D579E9183210EA006B7A52 /* 狼人请杀人.mp3 in Resources */,
+				65B646FA1831D82A001B5C6C /* 狼人杀1_游戏开始界面_设置.png in Resources */,
+				D07D028F182E3BBD00A750A4 /* 狼人杀8_等待加入.jpg in Resources */,
+				D07D027D182E38D200A750A4 /* 狼人杀1_游戏开始界面_开始游戏.png in Resources */,
+				0421DE63181AA07A00C3127E /* profile.png in Resources */,
+				65439A621823E0AD00A2C7F6 /* 狼人杀1_游戏开始界面(无button字版).jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E79B61819438D0057BFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046E79C41819438D0057BFDD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046E79931819438D0057BFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D90683182A21AC006054CB /* Player.m in Sources */,
+				04BDB392182E2F410044BB5F /* VillagerRoleCard.m in Sources */,
+				04E1A9CA182A8E7B00005963 /* Village.m in Sources */,
+				D07D0273182E339000A750A4 /* CupidRoleCard.m in Sources */,
+				045F317A181958B500C5F1A0 /* MainViewController.m in Sources */,
+				046E79AB1819438D0057BFDD /* AppDelegate.m in Sources */,
+				65E1E78518248ABD001FFEAB /* Witch.m in Sources */,
+				04EEC9B8182A1309007C3F20 /* Choosefang.m in Sources */,
+				04EB700E182B2CD500891FFB /* Event.m in Sources */,
+				0421DE5D181A9DE900C3127E /* IDCardView.m in Sources */,
+				04E147261830BBCD00497AE9 /* Gameresult.m in Sources */,
+				3F3E4E7E182636FA00CA6427 /* IndexViewController.m in Sources */,
+				04EF8B861829E85F0018B003 /* Waiting.m in Sources */,
+				04FAF5EA182DC8AB008A1BC0 /* WitchViewController.m in Sources */,
+				04FB82DA1830C53300974ED3 /* Setting.m in Sources */,
+				D07D0276182E33AD00A750A4 /* WolfRoleCard.m in Sources */,
+				6594AF5F1825008100652E42 /* SocketComunication.m in Sources */,
+				65E1E77E18248ABD001FFEAB /* Cupid.m in Sources */,
+				04EB4F5F182D3FA9003A5954 /* CupidViewController.m in Sources */,
+				04EB4F5C182D3E8A003A5954 /* Death.m in Sources */,
+				D07D0279182E33BD00A750A4 /* WitchRoleCard.m in Sources */,
+				65E1E78118248ABD001FFEAB /* Role.m in Sources */,
+				65E1E78418248ABD001FFEAB /* Villager.m in Sources */,
+				65E1E78618248ABD001FFEAB /* Wolf.m in Sources */,
+				04E94E58182E9733001D9094 /* IdentityViewController.m in Sources */,
+				046E79A71819438D0057BFDD /* main.m in Sources */,
+				04FAF5E7182DC6A9008A1BC0 /* Wolfviewcontroller.m in Sources */,
+				18219B7B1823D06100579F3A /* GCDAsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E79B41819438D0057BFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046E79C61819438D0057BFDD /* WerewolfTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046E79BE1819438D0057BFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046E79961819438D0057BFDD /* Werewolf */;
+			targetProxy = 046E79BD1819438D0057BFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046E79A31819438D0057BFDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046E79A41819438D0057BFDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		046E79AC1819438D0057BFDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046E79AD1819438D0057BFDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046E79C21819438D0057BFDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046E79C31819438D0057BFDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046E79C71819438D0057BFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		046E79C81819438D0057BFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046E79CA1819438D0057BFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Werewolf/Werewolf-Prefix.pch";
+				INFOPLIST_FILE = "Werewolf/Werewolf-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		046E79CB1819438D0057BFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Werewolf/Werewolf-Prefix.pch";
+				INFOPLIST_FILE = "Werewolf/Werewolf-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		046E79CD1819438D0057BFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Werewolf.app/Werewolf";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Werewolf/Werewolf-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WerewolfTests/WerewolfTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		046E79CE1819438D0057BFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Werewolf.app/Werewolf";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Werewolf/Werewolf-Prefix.pch";
+				INFOPLIST_FILE = "WerewolfTests/WerewolfTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046E79921819438D0057BFDD /* Build configuration list for PBXProject "Werewolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046E79C71819438D0057BFDD /* Debug */,
+				046E79C81819438D0057BFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046E79C91819438D0057BFDD /* Build configuration list for PBXNativeTarget "Werewolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046E79CA1819438D0057BFDD /* Debug */,
+				046E79CB1819438D0057BFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046E79CC1819438D0057BFDD /* Build configuration list for PBXNativeTarget "WerewolfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046E79CD1819438D0057BFDD /* Debug */,
+				046E79CE1819438D0057BFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046E798F1819438D0057BFDD /* Project object */;
+}
